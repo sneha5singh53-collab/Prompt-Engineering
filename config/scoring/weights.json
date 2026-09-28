@@ -1,0 +1,74 @@
+{
+  "_comment": "All weights are 0-100 scale contributions unless noted. Tune per observed conversion data via the lead-quality feedback loop (Section 22). Changing a weight here should not require a workflow redeploy — WF-01/02/03 read this file at runtime.",
+
+  "icp_component_weight": 0.35,
+  "signal_component_weight": 0.35,
+  "trigger_recency_weight": 0.15,
+  "engagement_component_weight": 0.15,
+
+  "signal_decay": {
+    "half_life_days": 45,
+    "min_decay_floor": 0.1
+  },
+
+  "qualification_floors": {
+    "icp_fit_min_to_score_product": 40,
+    "product_fit_min_for_deep_research": 60,
+    "intent_score_min_for_deep_research": 60,
+    "sql_min_product_score": 65,
+    "sql_min_intent_score": 60,
+    "sql_trigger_max_age_days": 60
+  },
+
+  "vayu_signal_weights": {
+    "ai_ml_hiring": 20,
+    "gpu_requirements": 20,
+    "cloud_migration_announcement": 18,
+    "data_centre_expansion": 15,
+    "ai_product_launch": 15,
+    "cloud_cost_pressure": 12,
+    "data_sovereignty_trigger": 12,
+    "hybrid_private_cloud_rfp": 10
+  },
+
+  "cyber_signal_weights": {
+    "ciso_appointment": 25,
+    "security_incident_disclosure": 25,
+    "compliance_initiative": 18,
+    "zero_trust_sse_initiative": 15,
+    "cloud_expansion_no_security_hire": 15,
+    "soc_expansion": 12,
+    "security_hiring_non_ciso": 10,
+    "regulatory_pressure": 10
+  },
+
+  "cis_signal_weights": {
+    "otp_auth_requirement": 20,
+    "new_digital_app_launch": 18,
+    "contact_centre_expansion": 16,
+    "customer_growth": 15,
+    "international_expansion": 14,
+    "omnichannel_uc_signal": 12,
+    "voice_uc_transformation": 10,
+    "marketing_comms_expansion": 8
+  },
+
+  "engagement_score_weights": {
+    "email_open": 0,
+    "generic_click": 0,
+    "resource_click_relevant": 8,
+    "reply_generic": 0,
+    "reply_business_relevant": 20,
+    "reply_positive": 30,
+    "meeting_requested": 40,
+    "multiple_opens_same_contact": 5,
+    "multi_contact_engagement_same_account": 15
+  },
+
+  "governance": {
+    "contact_frequency_cap_days": 14,
+    "account_frequency_cap_days": 7,
+    "ai_daily_cost_cap_usd": 150,
+    "ai_weekly_cost_cap_usd": 750
+  }
+}

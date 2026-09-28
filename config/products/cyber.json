@@ -1,0 +1,34 @@
+{
+  "product_group": "CYBER_SECURITY",
+  "source_of_truth_url": "https://www.tatacommunications.com/cyber-security-solutions",
+  "verification_status": "UNVERIFIED - live fetch blocked by sandbox network egress policy. Populate 'official_copy' fields from the live page before this file drives any customer-facing message.",
+  "last_verified": null,
+  "solution_themes": [
+    {"theme_id": "cyber_resilience", "label": "Cyber resilience", "official_copy": "", "business_problems_addressed": ["organisational readiness against attacks", "business continuity under attack"]},
+    {"theme_id": "threat_detection", "label": "Threat detection", "official_copy": "", "business_problems_addressed": ["visibility into active threats"]},
+    {"theme_id": "threat_response", "label": "Threat response", "official_copy": "", "business_problems_addressed": ["incident response speed/capability"]},
+    {"theme_id": "managed_security", "label": "Managed security", "official_copy": "", "business_problems_addressed": ["security operations resourcing gap"]},
+    {"theme_id": "cloud_security", "label": "Cloud security", "official_copy": "", "business_problems_addressed": ["securing cloud expansion", "cloud misconfiguration risk"]},
+    {"theme_id": "security_service_edge", "label": "Security Service Edge", "official_copy": "", "business_problems_addressed": ["secure remote/hybrid access", "Zero Trust adoption"]},
+    {"theme_id": "soc_operations", "label": "SOC/security operations", "official_copy": "", "business_problems_addressed": ["24x7 monitoring capability gap"]},
+    {"theme_id": "application_security", "label": "Application/security protection", "official_copy": "", "business_problems_addressed": ["digital application exposure"]},
+    {"theme_id": "security_visibility", "label": "Security visibility", "official_copy": "", "business_problems_addressed": ["fragmented security posture visibility"]},
+    {"theme_id": "compliance_requirements", "label": "Compliance/security requirements", "official_copy": "", "business_problems_addressed": ["regulatory audit readiness"]}
+  ],
+  "icp": {
+    "industries": ["BFSI", "healthcare", "critical_infrastructure", "government", "any_regulated_industry"],
+    "min_employee_count": 200,
+    "disqualifiers": ["no_regulatory_exposure_no_data_sensitivity"]
+  },
+  "personas_priority_order": [
+    "CISO", "CIO", "CTO", "Head of Cyber Security", "Head of Information Security", "SOC Head", "IT Security Head", "Risk/Security leadership"
+  ],
+  "campaigns": [
+    {"code": "C1", "name": "Cloud security", "primary_theme": "cloud_security"},
+    {"code": "C2", "name": "Cyber resilience", "primary_theme": "cyber_resilience"},
+    {"code": "C3", "name": "Security transformation", "primary_theme": "security_service_edge"},
+    {"code": "C4", "name": "SOC/managed security", "primary_theme": "soc_operations"},
+    {"code": "C5", "name": "Compliance/security", "primary_theme": "compliance_requirements"},
+    {"code": "C6", "name": "SSE/secure access", "primary_theme": "security_service_edge"}
+  ]
+}

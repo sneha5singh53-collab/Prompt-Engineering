@@ -1,0 +1,96 @@
+{
+  "product_group": "VAYU_CLOUD",
+  "source_of_truth_url": "https://www.tatacommunications.com/cloud",
+  "verification_status": "UNVERIFIED - live fetch blocked by sandbox network egress policy. Populate 'official_copy' fields from the live page before this file drives any customer-facing message.",
+  "last_verified": null,
+  "solution_themes": [
+    {
+      "theme_id": "enterprise_cloud",
+      "label": "Enterprise cloud",
+      "official_copy": "",
+      "business_problems_addressed": ["scaling core infrastructure", "legacy modernisation", "multi-region enterprise workloads"]
+    },
+    {
+      "theme_id": "sovereign_cloud",
+      "label": "Sovereign cloud",
+      "official_copy": "",
+      "business_problems_addressed": ["data residency requirements", "regulatory data localisation", "national/regional compliance mandates"]
+    },
+    {
+      "theme_id": "private_hybrid_cloud",
+      "label": "Private/hybrid cloud",
+      "official_copy": "",
+      "business_problems_addressed": ["multi-cloud complexity", "workload placement flexibility", "on-prem-to-cloud transition"]
+    },
+    {
+      "theme_id": "ai_cloud",
+      "label": "AI cloud",
+      "official_copy": "",
+      "business_problems_addressed": ["AI/ML workload hosting", "model training and inference infrastructure"]
+    },
+    {
+      "theme_id": "gpu_infrastructure",
+      "label": "GPU infrastructure",
+      "official_copy": "",
+      "business_problems_addressed": ["GPU capacity for AI initiatives", "compute-intensive workload scaling"]
+    },
+    {
+      "theme_id": "data_platform",
+      "label": "Data platform",
+      "official_copy": "",
+      "business_problems_addressed": ["large-scale data workloads", "data infrastructure consolidation"]
+    },
+    {
+      "theme_id": "cloud_to_edge",
+      "label": "Cloud-to-edge",
+      "official_copy": "",
+      "business_problems_addressed": ["distributed/latency-sensitive workloads", "edge compute needs"]
+    },
+    {
+      "theme_id": "cloud_modernisation",
+      "label": "Cloud modernisation",
+      "official_copy": "",
+      "business_problems_addressed": ["legacy application modernisation", "cloud-native transformation"]
+    },
+    {
+      "theme_id": "cloud_cost_complexity",
+      "label": "Cloud cost/complexity",
+      "official_copy": "",
+      "business_problems_addressed": ["multi-cloud cost sprawl", "operational complexity reduction"]
+    },
+    {
+      "theme_id": "regulated_workloads",
+      "label": "Regulated workloads",
+      "official_copy": "",
+      "business_problems_addressed": ["industry-specific compliance (BFSI/healthcare/govt)", "auditability requirements"]
+    },
+    {
+      "theme_id": "data_sovereignty",
+      "label": "Data sovereignty",
+      "official_copy": "",
+      "business_problems_addressed": ["in-country data storage/processing mandates"]
+    },
+    {
+      "theme_id": "ai_infrastructure",
+      "label": "AI infrastructure",
+      "official_copy": "",
+      "business_problems_addressed": ["end-to-end AI stack (compute + data + platform)"]
+    }
+  ],
+  "icp": {
+    "industries": ["BFSI", "manufacturing", "healthcare", "media_entertainment", "government_psu", "tech_saas"],
+    "min_employee_count": 200,
+    "disqualifiers": ["pure_on_prem_no_digital_roadmap"]
+  },
+  "personas_priority_order": [
+    "CIO", "CTO", "Head of Cloud", "Head of Infrastructure", "Head of AI", "Head of Data", "VP Technology", "IT Director"
+  ],
+  "campaigns": [
+    {"code": "V1", "name": "AI/GPU infrastructure", "primary_theme": "ai_cloud"},
+    {"code": "V2", "name": "Cloud modernisation", "primary_theme": "cloud_modernisation"},
+    {"code": "V3", "name": "Sovereign cloud", "primary_theme": "sovereign_cloud"},
+    {"code": "V4", "name": "Hybrid/private cloud", "primary_theme": "private_hybrid_cloud"},
+    {"code": "V5", "name": "Regulated workloads", "primary_theme": "regulated_workloads"},
+    {"code": "V6", "name": "Cloud cost/complexity", "primary_theme": "cloud_cost_complexity"}
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "product_group": "CIS_KALEYRA",
+  "source_of_truth_url": "https://www.tatacommunications.com/kaleyra",
+  "verification_status": "UNVERIFIED - live fetch blocked by sandbox network egress policy. Populate 'official_copy' fields from the live page before this file drives any customer-facing message.",
+  "last_verified": null,
+  "solution_themes": [
+    {"theme_id": "customer_communications", "label": "Customer communications", "official_copy": "", "business_problems_addressed": ["end-to-end customer comms infrastructure"]},
+    {"theme_id": "transactional_messaging", "label": "Transactional messaging", "official_copy": "", "business_problems_addressed": ["high-volume transactional message delivery"]},
+    {"theme_id": "otp_authentication", "label": "OTP/authentication", "official_copy": "", "business_problems_addressed": ["secure user authentication at scale"]},
+    {"theme_id": "voice", "label": "Voice", "official_copy": "", "business_problems_addressed": ["voice communication infrastructure"]},
+    {"theme_id": "cloud_voice", "label": "Cloud voice", "official_copy": "", "business_problems_addressed": ["cloud-based voice/telephony modernisation"]},
+    {"theme_id": "customer_service_comms", "label": "Customer service communications", "official_copy": "", "business_problems_addressed": ["support/service channel infrastructure"]},
+    {"theme_id": "marketing_communications", "label": "Marketing communications", "official_copy": "", "business_problems_addressed": ["campaign messaging at scale"]},
+    {"theme_id": "unified_communications", "label": "Unified communications", "official_copy": "", "business_problems_addressed": ["internal/employee UC transformation"]},
+    {"theme_id": "employee_communications", "label": "Employee communications", "official_copy": "", "business_problems_addressed": ["internal comms infrastructure"]},
+    {"theme_id": "contact_centre_cx", "label": "Contact centre/customer experience", "official_copy": "", "business_problems_addressed": ["CX/contact-centre modernisation"]}
+  ],
+  "icp": {
+    "industries": ["BFSI", "ecommerce_retail", "telecom", "travel", "logistics", "healthcare_patient_comms", "fintech"],
+    "min_employee_count": 200,
+    "disqualifiers": ["no_direct_customer_communication_ownership"]
+  },
+  "personas_priority_order": [
+    "Chief Customer Officer", "CX Head", "CMO", "CIO", "CTO", "Digital Head", "Contact Centre Head", "Customer Service Head", "Product/Digital Experience leadership"
+  ],
+  "campaigns": [
+    {"code": "I1", "name": "Customer communication", "primary_theme": "customer_communications"},
+    {"code": "I2", "name": "OTP/authentication", "primary_theme": "otp_authentication"},
+    {"code": "I3", "name": "Transactional messaging", "primary_theme": "transactional_messaging"},
+    {"code": "I4", "name": "Customer service", "primary_theme": "customer_service_comms"},
+    {"code": "I5", "name": "Cloud voice", "primary_theme": "cloud_voice"},
+    {"code": "I6", "name": "Unified communications", "primary_theme": "unified_communications"},
+    {"code": "I7", "name": "Customer experience transformation", "primary_theme": "contact_centre_cx"}
+  ]
+}
